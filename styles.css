@@ -1,0 +1,40 @@
+body {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.under {
+	color:blue;
+}
+
+.over {
+	color:crimson;
+}
+
+#titleContainer {
+/* 	border: 1px solid red; */
+	float: left;
+}
+
+#timingContainer {
+/* 	border: 1px solid red; */
+	float: right;
+}
+
+h2 {
+/* 	border: 1px solid blue; */
+}
+
+#timerInputs {
+/* 	border: 1px solid green; */
+}
+
+#gameSections {
+/* 	border: 1px solid purple; */
+}
+
+#timingContainer p:first-child {
+	font-size: 3em;
+	text-align: center;
+	margin: 0;
+}

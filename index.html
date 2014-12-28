@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Game Title</title>
+		<script type="text/javascript" src="jquery-2.1.1.min.js"> </script>
+		<script type="text/javascript" src="split.js"></script>
+		<script type="text/javascript" src="stopwatch.js"></script>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div id="titleContainer">
+			<h1>Game: <span>Enter New Title</span></h1>
+			<form id="changeTitle">
+				<ul>
+					<li>
+						<input type="text" id="gameTitle" placeholder="Enter Game Title"/><input type="submit" value="Enter Game" /> or
+						<select name="select" id="savedRuns">
+							<option value="">Select Previous Run</option>
+						</select>
+					</li>
+				</ul>
+			</form>
+			<h2>Attempts: <span id="attempts">1</span> <span id="savedTime">Total Savings: 0 s</span></h2>
+		</div>
+		<div id="timingContainer">
+			<p><span id="timer">00:00:00</span></p>
+			<p id="timerInputs">
+				<button id="startTimer">Start</button>
+				<button id="resetTimer">Reset</button>
+				<button id="splitSection">Split</button>
+				<button id="playPause">Pause</button>
+				<button id="saveTime">Save Run</button>
+			</p>
+			<p><span id="saveResponse"></span></p>
+			<h2>Milestones <button id="newSection">New Milestone</button></h2>
+			<form>
+				<ol id="gameSections">
+					<li><input type="text" class="sectionInputTitle" placeholder="Enter Milestone" /><input type="text" class="sectionInputTime" placeholder="hh:mm:ss" /></li>
+				</ol>
+			</form>
+		</div>
+	</body>
+</html>
