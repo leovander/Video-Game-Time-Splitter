@@ -1,4 +1,4 @@
-Video-Game-Time-Splitter
+Video Game Time Splitter
 ========================
 This is an overly glorified stop watch that keeps track of video game run times for speed runs.
 
