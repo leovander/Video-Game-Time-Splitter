@@ -11,11 +11,6 @@ var totalSavings = 0
 var convert;
 
 $(function() {
-
-	//var obj = {a: 123, b: "4 5 6"};
-	//var data = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(obj));
-	//$('<a href="data:' + data + '" download="data.json">download JSON</a>').appendTo('body');
-
 	$("#changeTitle").submit(function(event) {
 		event.preventDefault();
 		$("h1 span").html($("#gameTitle").val());
